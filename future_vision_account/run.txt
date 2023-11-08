@@ -1,0 +1,4 @@
+D:\odoo\odoo-16.0\venv\Scripts
+python C:\Users\Administrator\Desktop\odoo\odoo-16.0\odoo-16.0\odoo-bin -c C:\Users\Administrator\Desktop\odoo\projects\future_vision_account\local.conf -d data 
+
+  https://www.youtube.com/watch?v=R8WhhZyLqAU

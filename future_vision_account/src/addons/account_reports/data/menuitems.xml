@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+ <menuitem id = "Report_menu_root" name = "Accounting Report " sequence = "10"/>
+     <menuitem id = "report_first_level_menu" name = "Reports" parent = "Report_menu_root" sequence = "5">
+       <menuitem id="menus_action_account_report_partner_ledger" name="Partner Ledger" action="action_account_report_partner_ledger" />
+        <menuitem id="menus_action_account_report_aged_receivable" name="Aged Receivable" action="action_account_report_ar"/>
+        <menuitem id="menus_action_account_report_aged_payable" name="Aged Payable" action="action_account_report_ap"/>
+     </menuitem>
+   <menuitem id="accounts_reports_audit_reports_menu" name="Audit Reports" parent="Report_menu_root" sequence="2">
+        <menuitem id="menus_action_account_report_general_ledger" name="General Ledger" action="action_account_report_general_ledger"/>
+          <menuitem id="menus_action_account_report_coa" name="Trial Balance" action="action_account_report_coa"/>
+          <menuitem id="menus_action_account_report_ja" name="Journal Report" action="action_account_report_ja"/>
+          <menuitem id="menus_action_account_report_sales" action="action_account_report_sales" active="False"/>
+          <menuitem id="menus_action_account_report_multicurrency_revaluation" name="Unrealized Currency Gains/Losses" action="action_account_report_multicurrency_revaluation"/>
+          <menuitem id="menus_action_account_report_balance_sheet" name="Balance Sheet" action="action_account_report_bs"/>
+          <menuitem id="menus_action_account_report_profit_and_loss" name="Profit and Loss" action="action_account_report_pl"/>
+          <menuitem id="menus_action_account_report_cash_flow" name="Cash Flow Statement" action="action_account_report_cs"/>
+          <menuitem id="menus_action_account_report_exec_summary" name="Executive Summary" action="action_account_report_exec_summary"/>
+          <menuitem id="menus_action_account_report_horizontal_groups" name="Horizontal Groups" action="action_account_report_horizontal_groups"/>   
+    </menuitem>
+    <menuitem id="menu_action_account_report_gt" name="Tax Report" action="action_account_report_gt" parent="Report_menu_root" sequence="12"/>
+    <menuitem id="menu_action_account_report_sales" action="action_account_report_sales" parent="Report_menu_root" sequence="13" />
+
+
+</odoo>

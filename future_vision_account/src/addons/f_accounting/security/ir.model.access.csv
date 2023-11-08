@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+"access_asset","access_asset","model_asset","base.group_user",1,1,1,1
+"access_asset_modify","access_asset_modify","model_asset_modify","base.group_user",1,1,1,1
+"access_account_move","access_account_move","model_account_move","base.group_user",1,1,1,1
+"access_account_move_line","access_account_move_line","model_account_move_line","base.group_user",1,1,1,1
+"access_batch_payment","access_batch_payment","model_batch_payment","base.group_user",1,1,1,1
+"access_account_batch_error_wizard","access_account_batch_error_wizard","model_account_batch_error_wizard","base.group_user",1,1,1,1
+"access_account_batch_error_wizard_line","access_account_batch_error_wizard_line","model_account_batch_error_wizard_line","base.group_user",1,1,1,1
+
+
+
